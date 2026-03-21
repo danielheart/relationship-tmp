@@ -1,9 +1,11 @@
 {
-  "redirects": [
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "https://quiz.danielhe.art/relationship/:path*",
-      "permanent": true
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://quiz.danielhe.art/relationship/$1"
+      }
     }
   ]
 }
