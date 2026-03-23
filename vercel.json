@@ -4,7 +4,7 @@
       "src": "/(.*)",
       "status": 301,
       "headers": {
-        "Location": "https://test.danielhe.art/relationship/$1"
+        "Location": "https://insight.danielhe.art/relationship/$1"
       }
     }
   ]
